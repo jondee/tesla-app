@@ -21,6 +21,13 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 
+      
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+ 
+
+        <!-- Made changes to Sonar 09/19/2022 -->
 		<sonar.host.url>http://192.168.108.154:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
@@ -59,7 +66,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- compile dependencies nnn-->
+		<!-- compile dependencies  -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -96,16 +103,16 @@
 	<distributionManagement>
 	 
          
-
+         <!-- Made changes to Nexus 09/19/2022 -->
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Tesla Releases Nexus Repository</name>
 	      <url>http://192.168.108.139:8081/repository/tesla-fe-releases/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>Tesla Snapshot Nexus Repository </name>
 	      <url>http://192.168.108.139:8081/repository/tesla-fe-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
