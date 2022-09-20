@@ -22,9 +22,7 @@
 		<log4j.version>1.2.17</log4j.version>
 
       
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+      
  
 
         <!-- Made changes to Sonar 09/19/2022 -->
